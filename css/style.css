@@ -3,20 +3,17 @@
 }
 
 body {
-  
-  margin: 0;
-  padding: 0;
+  background-color: black;
+  color: antiquewhite;
+  margin: 30px;
+  padding: 30px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
-
 }
 .container {
-  display:grid;
+  display: grid;
   grid-template-columns: 25% 75%;
 }
-
-  
-
 
 h1,
 h2,
@@ -24,10 +21,10 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
+  margin: 20px;
+  padding: 20px;
 }
 
 p {
-  margin: 0;
-  background-image: image-set();
+  margin: 20px;
 }
